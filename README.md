@@ -119,21 +119,16 @@ Here is a visualization of the class distribution of the dataset:
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
-
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score): 20th on leaderboard. Received a score of  0.47753 on the leaderboard
+* Performance metrics (e.g., Kaggle Leaderboard score, F1-score): 8th on public leaderboard, with an F1 score of 0.68122. Earned 9th place on private leaderboard, with an F1 score of 0.66345.
 * How your model performed overall: Our overall model accuracy was 92.24%, with an average precision score of .93, recall score of .97, and f1 score of .92 across the different skin conditions.
-* Currently working on improving our preformance. 
 
-**NEED TO FILL**
-* How your model performed across different skin tones (AJL)
+* How your model performed across different skin tones (AJL):
 * Our model performed well on lighter skin tones (FST 1-3) with higher accuracy, precision, and recall. However, for darker skin tones (FST 4-6), we observed a drop in accuracy and precision, leading to more false positives. This disparity highlights the need for additional data augmentation and class balancing to improve equitable performance.
 
 
-* Insights from evaluating model fairness (AJL)
-* 
+* Insights from evaluating model fairness (AJL):
 * The confusion matrix showed higher misclassification rates for darker skin tones, especially for less common conditions. Precision-recall curves indicated that the model often overpredicted certain conditions for darker skin tones. Applying fairness-aware metrics and explainability tools suggested the need for further bias mitigation strategies to ensure equitable predictions.
-* 
+
 ---
 
 ## **🖼️ Impact Narrative**
