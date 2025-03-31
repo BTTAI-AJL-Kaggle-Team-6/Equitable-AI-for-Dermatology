@@ -122,18 +122,16 @@ Here is a visualization of the class distribution of the dataset:
 * Performance metrics (e.g., Kaggle Leaderboard score, F1-score): 8th on public leaderboard, with an F1 score of 0.68122. Earned 9th place on private leaderboard, with an F1 score of 0.66345.
 * How your model performed overall: Our overall model accuracy was 92.24%, with an average precision score of .93, recall score of .97, and f1 score of .92 across the different skin conditions.
 
-* How your model performed across different skin tones (AJL):
+ How your model performed across different skin tones (AJL):
 * Our model performed well on lighter skin tones (FST 1-3) with higher accuracy, precision, and recall. However, for darker skin tones (FST 4-6), we observed a drop in accuracy and precision, leading to more false positives. This disparity highlights the need for additional data augmentation and class balancing to improve equitable performance.
 
 
-* Insights from evaluating model fairness (AJL):
+ Insights from evaluating model fairness (AJL):
 * The confusion matrix showed higher misclassification rates for darker skin tones, especially for less common conditions. Precision-recall curves indicated that the model often overpredicted certain conditions for darker skin tones. Applying fairness-aware metrics and explainability tools suggested the need for further bias mitigation strategies to ensure equitable predictions.
 
 ---
 
 ## **🖼️ Impact Narrative**
-
-**Answer the relevant questions below based on your competition:**
 
 **AJL challenge:**
 
@@ -159,12 +157,10 @@ Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi
 
 ## **🚀 Next Steps & Future Improvements**
 
-**Address the following:**
-
-* What are some of the limitations of your model?
+* What are some of the limitations of your model? - 
 Limitations could include the reliance of the single pre-trained model used. Also, even using class weights, the model’s performance is heavily dependent on the quality and diversity of the training data we were provided. 
 
-* What would you do differently with more time/resources?
+* What would you do differently with more time/resources? - 
 If we had better processes, we would adjust the model parameters (such as increasing the number of epochs) and/or increase the amount of data processed to improve predictions. We would like to explore more model options in order to improve prediction. Have a better understanding of how different skin types affect the prediction. 
 
 
